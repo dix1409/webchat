@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  /* background-color: ; */
+  font-family: "Nunito Sans", sans-serif;
+
+  height: 105vh;
+  background-image: linear-gradient(to left bottom, #1e97b0, #2c9cb6);
+  background-size: cover;
+  background-position: bottom right;
+  background-color: #777;
+  clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  font-size: 20;
+  padding: 2.5vh;
+  color: white;
+}
+.lists {
+  display: flex;
+  flex-direction: row;
+  font-size: 17;
+  list-style: none;
+  margin-right: 1vh;
+}
+.list {
+  margin: 1vh;
+}
+#space {
+  margin-right: auto;
+}
+.main {
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: row;
+  /* margin-left: auto; */
+  /* margin-left: 15%; */
+  width: 60%;
+}
+.content {
+  width: 50%;
+  margin: 1rem;
+}
+.space {
+  margin-top: 1.5rem;
+}
+.btn-white {
+  background-color: #fff;
+  color: #777;
+  font-size: var(--default-font-size);
+  animation: movebtn 1s ease-in;
+  animation-fill-mode: backwards;
+  border-radius: 1.2rem;
+  width: 50%;
+  margin-top: 1.6rem;
+  height: 3rem;
+}
+.btn-round {
+  margin-top: 1.6rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: #25a9c9;
+  margin-left: 1rem;
+}
+
+.follow {
+  margin-top: 2rem;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #25a9c9;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  margin-top: 0.1rem;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #25a9c9;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  margin-top: 0.1rem;
+}
+
+.fa-instagram {
+  background: #25a9c9;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  margin-top: 0.1rem;
+}
